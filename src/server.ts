@@ -4,7 +4,7 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-type", "text/plain");
   if (req.url === "/") {
     res.statusCode = 200;
-    res.end("Home page");
+    res.end("Teste");
   } else if (req.url === "/about") {
     res.statusCode = 200;
     res.end("About page");
