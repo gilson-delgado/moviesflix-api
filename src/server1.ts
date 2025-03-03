@@ -8,5 +8,5 @@ app.get("/movies", (req,res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Servidor e, execução na porta ${port}`);
+    console.log(`Servidor esta em execução na porta ${port}`);
 });
